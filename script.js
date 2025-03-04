@@ -11,6 +11,7 @@ function yellatuser(){
     text.innerHTML="..."
  }
  else if ( clicks == 10 ) {
+   button1
     text.innerHTML=">:("
  }
  else if ( clicks == 11 ) {
@@ -40,6 +41,7 @@ else if ( clicks == 33 ) {
  else if ( clicks == 35 ) {
     text.innerHTML="its crazy that you're getting threatened by a button right now"
  }
+
 }
 
 button1.addEventListener("click", yellatuser);
