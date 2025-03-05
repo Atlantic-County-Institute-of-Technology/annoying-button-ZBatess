@@ -1,7 +1,7 @@
 
 
 .button1 {
-position: absolute;
+position: realitive;
 height: 350px;
 width: 350px;
 border:0px rgb(0, 0, 0);
@@ -24,13 +24,10 @@ bottom: 410px;
 }
 
 .button2 {
-    position: absolute;
-height: 200px;
-width: 200px;
-border:0px rgb(0, 0, 0);
-border-radius: 50%;
-background-color: rgb(255, 0, 204);
-box-shadow:10px 10px rgb(109, 0, 111);
-left: 1220px;
-bottom: 404px;
+position: relative;
+background-color: rgb(234, 0, 255);
+height: 250px;
+width: 250px;
+left: 115px;
+bottom: -50px;
 }

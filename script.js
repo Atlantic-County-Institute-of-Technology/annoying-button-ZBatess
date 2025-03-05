@@ -1,6 +1,8 @@
 const button1 = document.getElementById("button1");
 let text = document.getElementById("text");
 let clicks = 0;
+const container = document.getElementById("container")
+
 
 function yellatuser(){ 
     clicks++;
@@ -41,7 +43,24 @@ else if ( clicks == 33 ) {
  else if ( clicks == 35 ) {
     text.innerHTML="its crazy that you're getting threatened by a button right now"
  }
+ else if ( clicks == 37 ) {
+   text.innerHTML="press this button instead"
+}
+else if ( clicks == 38 ) {
+   const button2 = document.createElement("button");
+   button2.innerHTML = "You can press this button:D";
+   button2.classList.add("button1");
+   button2.classList.add("button2");
+   container.appendChild(button2);
+}
+else if ( clicks == 39 ) {
+  text.innerHTML=""
 
 }
+}
 
+
+
+
+button2.addEventListener("click", talktouser);
 button1.addEventListener("click", yellatuser);
