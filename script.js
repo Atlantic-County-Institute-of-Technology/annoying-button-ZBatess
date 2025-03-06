@@ -1,7 +1,10 @@
+
 const button1 = document.getElementById("button1");
 let text = document.getElementById("text");
 let clicks = 0;
-const container = document.getElementById("container")
+let clicks2 = 0;
+const container = document.getElementById("container");
+const button2 = document.createElement("button");
 
 
 function yellatuser(){ 
@@ -11,7 +14,9 @@ function yellatuser(){
     }
  else if ( clicks == 5 ) {
     text.innerHTML="..."
- }
+
+}
+
  else if ( clicks == 10 ) {
    button1
     text.innerHTML=">:("
@@ -38,29 +43,41 @@ else if ( clicks == 33 ) {
     text.innerHTML="who said that?"
  }
  else if ( clicks == 34 ) {
-    text.innerHTML="not me"
+    text.innerHTML="I HATE YOU"
+    button1.classList.add("move");
  }
- else if ( clicks == 35 ) {
-    text.innerHTML="its crazy that you're getting threatened by a button right now"
+ else if ( clicks == 38 ) {
+    text.innerHTML="you're the worst."
+    button1.classList.remove("move");
  }
- else if ( clicks == 37 ) {
-   text.innerHTML="press this button instead"
+ else if ( clicks == 39 ) {
+   text.innerHTML="you know what? here, have this button instead"
 }
-else if ( clicks == 38 ) {
-   const button2 = document.createElement("button");
+else if ( clicks == 40 ) {
+
    button2.innerHTML = "You can press this button:D";
    button2.classList.add("button1");
    button2.classList.add("button2");
    container.appendChild(button2);
 }
-else if ( clicks == 39 ) {
-  text.innerHTML=""
+else if ( clicks == 43 ) {
+  text.innerHTML="why are you pressing me,, bother him instead"
 
 }
 }
+function talktouser(){ 
+   clicks2++;
+   if (clicks2==1) {
+      text.innerHTML=":3"
+      text.style.color = "rgb(234, 0, 255)";
+      }
+    if (clicks2==4) {
+       text.innerHTML="..."
+      text.style.color = "rgb(234, 0, 255)";
+    }
+}
 
-
-
-
-button2.addEventListener("click", talktouser);
 button1.addEventListener("click", yellatuser);
+button2.addEventListener("click", talktouser);
+
+

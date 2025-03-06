@@ -11,9 +11,10 @@ box-shadow:10px 10px rgb(152, 146, 146);
 left: 815px;
 bottom: 410px;
 }
-/* add animation: 1.20s button1 infinite linear; on button one for the keyframes to work in the future,, currently idk how to time them so ..*/
 
-@keyframes button1{
+/*.button1 move{
+
+@keyframes buttonMove{
     0%{transform: rotate(0deg)
         translateX(350px) rotate(0deg);
     }
@@ -21,7 +22,7 @@ bottom: 410px;
         transform: rotate(360deg)
         translateX(360px) rotate(360deg) ;
     }
-}
+}*/
 
 .button2 {
 position: relative;
@@ -31,3 +32,4 @@ width: 250px;
 left: 115px;
 bottom: -50px;
 }
+
