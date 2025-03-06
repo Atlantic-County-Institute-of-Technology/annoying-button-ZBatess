@@ -75,6 +75,22 @@ function talktouser(){
        text.innerHTML="..."
       text.style.color = "rgb(234, 0, 255)";
     }
+      if (clicks2==5) {
+       text.innerHTML="ow.."
+      text.style.color = "rgb(234, 0, 255)";
+    }
+      if (clicks2==6) {
+       text.innerHTML="ow..ow.."
+      text.style.color = "rgb(234, 0, 255)";
+    }
+      if (clicks2==7) {
+       text.innerHTML="ow..ow..ow:(.."
+      text.style.color = "rgb(234, 0, 255)";
+    }
+      if (clicks2==8) {
+      text.innerHTML="<i>cough..</i>"
+      text.style.color = "rgb(234, 0, 255)";
+    }
 }
 
 button1.addEventListener("click", yellatuser);
