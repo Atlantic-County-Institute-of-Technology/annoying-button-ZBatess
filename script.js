@@ -5,6 +5,7 @@ let clicks = 0;
 let clicks2 = 0;
 const container = document.getElementById("container");
 const button2 = document.createElement("button");
+let scream = new Audio('assets/scream.mp3');
 
 
 function yellatuser(){ 
@@ -62,9 +63,53 @@ else if ( clicks == 40 ) {
 }
 else if ( clicks == 43 ) {
   text.innerHTML="why are you pressing me,, bother him instead"
+  text.style.color = "rgb(0, 0, 0)";
+}
+else if ( clicks == 45 ) {
+   text.innerHTML="DID YOU KILL HIM"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 46 ) {
+   text.innerHTML="SEBASTIAN WAKE UP"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 47 ) {
+   text.innerHTML="SEBAASSTAIANANANANNNNNNNN"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 47 ) {
+   text.innerHTML="NOOOOOOOOOO"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 48 ) {
+   text.innerHTML="HOW COULD YOU"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+else if ( clicks == 50 ) {
+  text.innerHTML="my husband D:"
+  text.style.color = "rgb(0, 0, 0)";
+}
+else if ( clicks == 51 ) {
+   text.innerHTML="..."
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 52 ) {
+   text.innerHTML="THATS"
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 53 ) {
+   text.innerHTML="THATS IT."
+   text.style.color = "rgb(0, 0, 0)";
+ }
+ else if ( clicks == 54 ) {
+   text.innerHTML="FIND ANOTHER BUTTON TO PRESS I'M LEAVING."
+   text.style.color = "rgb(0, 0, 0)";
+   button1.style.display = "none";
+ }
+}
 
-}
-}
+
+
 function talktouser(){ 
    clicks2++;
    if (clicks2==1) {
@@ -75,6 +120,43 @@ function talktouser(){
        text.innerHTML="..."
       text.style.color = "rgb(234, 0, 255)";
     }
+    if (clicks2==6) {
+      text.innerHTML="ow"
+     text.style.color = "rgb(234, 0, 255)";
+   }
+   if (clicks2==7) {
+      text.innerHTML="ow ow"
+     text.style.color = "rgb(234, 0, 255)";
+   }
+   if (clicks2==8) {
+      text.innerHTML="stop"
+     text.style.color = "rgb(234, 0, 255)";
+   }
+   if (clicks2==9) {
+      text.innerHTML="ow"
+     text.style.color = "rgb(234, 0, 255)";
+   }
+   if (clicks2==10) {
+      text.innerHTML="AAAAAAAAAAAAAA"
+     text.style.color = "rgb(234, 0, 255)";
+     scream.play();
+   }
+if (clicks2==11) {
+   text.innerHTML="X_X"
+  text.style.color = "rgb(234, 0, 255)";
+}
+if (clicks2==12) {
+   text.innerHTML="X_X"
+  text.style.color = "rgb(234, 0, 255)";
+}
+if (clicks2==13) {
+   text.innerHTML="X_X"
+  text.style.color = "rgb(234, 0, 255)";
+}
+if (clicks2==14) {
+   text.innerHTML="he's still dead why are you clicking </3"
+  text.style.color = "rgb(234, 0, 255)";
+}
 }
 
 button1.addEventListener("click", yellatuser);
