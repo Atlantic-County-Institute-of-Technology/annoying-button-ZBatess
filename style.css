@@ -12,18 +12,6 @@ left: 815px;
 bottom: 410px;
 }
 
-/*.button1 move{
-
-@keyframes buttonMove{
-    0%{transform: rotate(0deg)
-        translateX(350px) rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg)
-        translateX(360px) rotate(360deg) ;
-    }
-}*/
-
 .button2 {
 position: relative;
 background-color: rgb(234, 0, 255);
@@ -33,3 +21,25 @@ left: 115px;
 bottom: -50px;
 }
 
+.rotting{
+    animation: rot 60s infinite;
+}
+@keyframes rot {
+    0%{ background-color: rgb(234, 0, 255);}
+    100%{background-color: brown;}
+}
+
+/*makes button2 rot at the end of the program*/
+
+.mover{
+    animation: circle 1s linear 1;
+}
+@keyframes circle{
+    0%{transform: rotate(0deg)
+        translateX(350px) rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)
+        translateX(350px) rotate(360deg) ;
+    }
+}

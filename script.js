@@ -25,8 +25,11 @@ function yellatuser(){
  else if ( clicks == 11 ) {
     text.innerHTML="STOP IT!"
  }
+    else if ( clicks == 13 ) {
+   text.innerHTML="if your name is roberto you should stopp pressing this button"
+  }
  else if ( clicks == 16 ) {
-    text.innerHTML="watch REPO!The genetic opera."
+  text.innerHTML = "roberto is the best i owe my life to him (he typed that, he's actually a hater)"
  }
 else if ( clicks == 17 ) {
    text.innerHTML="STOP IT!"
@@ -40,16 +43,13 @@ else if ( clicks == 17 ) {
 else if ( clicks == 32 ) {
    text.innerHTML="i hope you aren't attatched to your family"
 }
-else if ( clicks == 33 ) {
-    text.innerHTML="who said that?"
+else if ( clicks == 34 ) {
+    button1.classList.add("mover")
+    text.innerHTML = "good luck clicking me now"
  }
- else if ( clicks == 34 ) {
-    text.innerHTML="I HATE YOU"
-    button1.classList.add("move");
- }
- else if ( clicks == 38 ) {
+ else if ( clicks == 35 ) {
     text.innerHTML="you're the worst."
-    button1.classList.remove("move");
+    button1.classList.remove("mover");
  }
  else if ( clicks == 39 ) {
    text.innerHTML="you know what? here, have this button instead"
@@ -72,6 +72,7 @@ else if ( clicks == 45 ) {
  else if ( clicks == 46 ) {
    text.innerHTML="SEBASTIAN WAKE UP"
    text.style.color = "rgb(0, 0, 0)";
+   button2.innerHTML = "Sebastian??";
  }
  else if ( clicks == 47 ) {
    text.innerHTML="SEBAASSTAIANANANANNNNNNNN"
@@ -80,6 +81,7 @@ else if ( clicks == 45 ) {
  else if ( clicks == 47 ) {
    text.innerHTML="NOOOOOOOOOO"
    text.style.color = "rgb(0, 0, 0)";
+   button2.innerHTML = "button who is in mourning";
  }
  else if ( clicks == 48 ) {
    text.innerHTML="HOW COULD YOU"
@@ -105,8 +107,11 @@ else if ( clicks == 51 ) {
    text.innerHTML="FIND ANOTHER BUTTON TO PRESS I'M LEAVING."
    text.style.color = "rgb(0, 0, 0)";
    button1.style.display = "none";
+   button2.innerHTML = "Sebastian (rotting)";
  }
-}
+
+ }
+
 
 
 
@@ -120,6 +125,28 @@ function talktouser(){
        text.innerHTML="..."
       text.style.color = "rgb(234, 0, 255)";
     }
+    if (clicks2==5) {
+      text.innerHTML="ow"
+     text.style.color = "rgb(234, 0, 255)";
+   }    if (clicks2==6) {
+    text.innerHTML="ow ow"
+   text.style.color = "rgb(234, 0, 255)";
+ }    if (clicks2==7) {
+  text.innerHTML="ow ow ow"
+ text.style.color = "rgb(234, 0, 255)";
+}    if (clicks2==8) {
+  text.innerHTML="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGHGHHHAGHHHHHHHAHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"
+ text.style.color = "rgb(234, 0, 255)";
+ button2.innerHTML = "dead button D:";
+}    if (clicks2==9) {
+  text.innerHTML="X_X"
+ text.style.color = "rgb(234, 0, 255)";
+button2.classList.add("rotting")}
+if (clicks2==10) {
+  text.innerHTML="X_X"
+ text.style.color = "rgb(234, 0, 255)";
+ button2.innerHTML = "do you feel guilty ???";
+}
 }
 
 button1.addEventListener("click", yellatuser);
