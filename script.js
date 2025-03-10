@@ -109,11 +109,7 @@ else if ( clicks == 51 ) {
    button1.style.display = "none";
    button2.innerHTML = "Sebastian (rotting)";
  }
-
  }
-
-
-
 
 function talktouser(){ 
    clicks2++;
