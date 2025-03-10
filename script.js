@@ -120,43 +120,6 @@ function talktouser(){
        text.innerHTML="..."
       text.style.color = "rgb(234, 0, 255)";
     }
-    if (clicks2==6) {
-      text.innerHTML="ow"
-     text.style.color = "rgb(234, 0, 255)";
-   }
-   if (clicks2==7) {
-      text.innerHTML="ow ow"
-     text.style.color = "rgb(234, 0, 255)";
-   }
-   if (clicks2==8) {
-      text.innerHTML="stop"
-     text.style.color = "rgb(234, 0, 255)";
-   }
-   if (clicks2==9) {
-      text.innerHTML="ow"
-     text.style.color = "rgb(234, 0, 255)";
-   }
-   if (clicks2==10) {
-      text.innerHTML="AAAAAAAAAAAAAA"
-     text.style.color = "rgb(234, 0, 255)";
-     scream.play();
-   }
-if (clicks2==11) {
-   text.innerHTML="X_X"
-  text.style.color = "rgb(234, 0, 255)";
-}
-if (clicks2==12) {
-   text.innerHTML="X_X"
-  text.style.color = "rgb(234, 0, 255)";
-}
-if (clicks2==13) {
-   text.innerHTML="X_X"
-  text.style.color = "rgb(234, 0, 255)";
-}
-if (clicks2==14) {
-   text.innerHTML="he's still dead why are you clicking </3"
-  text.style.color = "rgb(234, 0, 255)";
-}
 }
 
 button1.addEventListener("click", yellatuser);
